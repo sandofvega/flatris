@@ -3,7 +3,7 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   DOCKERHUB_REPOSITORY: ${{ vars.DOCKERHUB_USERNAME }}/${{ vars.IMAGE_NAME }}
